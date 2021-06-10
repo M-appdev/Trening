@@ -6,115 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/trening1View"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="50dp"
-        android:text="@string/trening_1"
-        android:textSize="20sp"
-        android:textStyle="bold"
+
+    <Button
+        android:id="@+id/buttonMuskarci"
+        android:layout_width="247dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:text="Trening za muškarce"
+        app:layout_constraintBottom_toTopOf="@+id/buttonZene"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/trening2View"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="50dp"
-        android:text="@string/trening_2"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/trening1View" />
-
-    <TextView
-        android:id="@+id/trening3View6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="50dp"
-        android:text="@string/trening_3"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/trening2View" />
-
-    <TextView
-        android:id="@+id/trening4View7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="50dp"
-        android:text="@string/trening_4"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/trening3View6" />
-
     <Button
-        android:id="@+id/trening1Button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/prsa_i_triceps"
+        android:id="@+id/buttonZene"
+        android:layout_width="243dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="200dp"
+        android:text="Trening za žene"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/trening1View"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/trening2Button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/noge_i_trbu_njaci"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
-        app:layout_constraintStart_toEndOf="@+id/trening2View"
-        app:layout_constraintTop_toBottomOf="@+id/trening1Button" />
-
-    <Button
-        android:id="@+id/trening3Button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/le_a_i_biceps"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.594"
-        app:layout_constraintStart_toEndOf="@+id/trening3View6"
-        app:layout_constraintTop_toBottomOf="@+id/trening2Button" />
-
-    <Button
-        android:id="@+id/trening4Button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/ramena_i_ruke"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.594"
-        app:layout_constraintStart_toEndOf="@+id/trening4View7"
-        app:layout_constraintTop_toBottomOf="@+id/trening3Button" />
-
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
