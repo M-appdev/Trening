@@ -22,8 +22,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="357dp"
-        android:layout_height="162dp"
+        android:layout_width="356dp"
+        android:layout_height="144dp"
         android:layout_marginTop="16dp"
         android:text="Prvo se zagrijavamo na nekoj od kardio sprava  minimum 5 minuta ili više, tempo treba da bude umjeren.\nCilj je da se podigne tjelesna temperatura a da se mišići ne umore.\nZatim zagrijavamo rotatore ramena, sama ramena, zglobove lakta i šake. "
         android:textSize="16sp"
@@ -39,7 +39,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Postepeno podizati kilaze.\nPrva serija je sa praznom šipkom, ostale serije zagrijavanja po mogućnosti sve do radne kilaze."
+        android:text="Postepeno podizati kilaze.\nPrva serija je sa praznom šipkom, ostale serije zagrijavanja po mogućnosti, sve do radne kilaze."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.659"
@@ -49,10 +49,10 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="361dp"
-        android:layout_height="83dp"
+        android:layout_width="362dp"
+        android:layout_height="120dp"
         android:layout_marginTop="16dp"
-        android:text="Radna kilaza predstavlja teret s kojim mozete uraditi 8 ponavljanja pri tome da Vam ostane snage za još jedan, eventualno dva ponavljanja.\nKoristite tegove da sebi otežate ili mašinu da olakšate vježbu."
+        android:text="Radna kilaza predstavlja teret s kojim mozete uraditi 8 ponavljanja pri tome da Vam ostane snage za još jedan, eventualno dva ponavljanja.\nKoristite tegove da sebi otežate ili mašinu da olakšate vježbu.\n Prilikom izvođenja vjezbe tijelo nageti naprijed da bi se naglasio rad grudi."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,6 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Vjezba 1. Ravni bench press"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Vjezba 2. Propadanja"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +87,7 @@
         android:layout_width="350dp"
         android:layout_height="35dp"
         android:layout_marginTop="16dp"
-        android:text="4 serije po 10 ponavljanja sa radnom kilazom"
+        android:text="3 serije po 10 ponavljanja sa radnom kilazom"
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,4 +106,14 @@
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/SledećeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Sledeće"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

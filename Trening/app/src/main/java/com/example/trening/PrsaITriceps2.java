@@ -7,24 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PrsaITriceps extends AppCompatActivity {
-private Button sledeceButton;
+public class PrsaITriceps2 extends AppCompatActivity {
+        private Button dugme;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_prsa_itriceps);
-        sledeceButton=(Button) findViewById(R.id.SledećeButton);
-        sledeceButton.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_prsa_itriceps2);
+        dugme=(Button) findViewById(R.id.sledeceButton2);
+        dugme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                otvoriPrsa2();
+                otvoriPrsa3();
             }
         });
     }
 
-    public void otvoriPrsa2(){
-        Intent intent=new Intent(this,PrsaITriceps2.class);
+    public void otvoriPrsa3(){
+        Intent intent=new Intent(this,PrsaITriceps3.class);
         startActivity(intent);
     }
-
 }
