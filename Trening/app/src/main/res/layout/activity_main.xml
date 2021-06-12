@@ -11,10 +11,9 @@
         android:id="@+id/buttonMuskarci"
         android:layout_width="247dp"
         android:layout_height="110dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
+        android:layout_marginTop="144dp"
         android:text="Trening za muškarce"
-        app:layout_constraintBottom_toTopOf="@+id/buttonZene"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,10 +21,11 @@
         android:id="@+id/buttonZene"
         android:layout_width="243dp"
         android:layout_height="112dp"
-        android:layout_marginBottom="200dp"
         android:text="Trening za žene"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMuskarci"
+        app:layout_constraintVertical_bias="0.32" />
 </androidx.constraintlayout.widget.ConstraintLayout>
