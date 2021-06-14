@@ -14,17 +14,7 @@ public class NogeITrbusnaci extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_noge_itrbusnaci);
 
-        dugmence=findViewById(R.id.Stranica2NogeButton);
-        dugmence.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                otvoriNoge2();
-            }
-        });
 
     }
-    public void otvoriNoge2(){
-        Intent intent=new Intent(this,NogeITrbusnjaci2.class);
-        startActivity(intent);
-    }
+
 }

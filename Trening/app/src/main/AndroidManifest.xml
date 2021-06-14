@@ -9,9 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Trening">
-        <activity android:name=".NogeITrbusnjaci2"></activity>
-        <activity android:name=".PrsaITriceps3" />
-        <activity android:name=".PrsaITriceps2" />
         <activity android:name=".Zene" />
         <activity android:name=".Muskarci" />
         <activity android:name=".RamenaIRuke" />

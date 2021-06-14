@@ -13,18 +13,9 @@ private Button sledeceButton;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prsa_itriceps);
-        sledeceButton=(Button) findViewById(R.id.SledećeButton);
-        sledeceButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                otvoriPrsa2();
-            }
-        });
+
     }
 
-    public void otvoriPrsa2(){
-        Intent intent=new Intent(this,PrsaITriceps2.class);
-        startActivity(intent);
-    }
+
 
 }
