@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Muskarci extends AppCompatActivity {
-Button button1,button2,button3,button4;
+Button button1,button2,button3,button4,button5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +46,15 @@ Button button1,button2,button3,button4;
             }
         });
 
+        button5 = (Button) findViewById(R.id.trening3Button2);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                otvoriTreningRuku();
+            }
+        });
+
+
     }
     public void otvoriTreningPrsa(){
         Intent intent =new Intent(this,PrsaITriceps.class);
@@ -60,7 +69,11 @@ Button button1,button2,button3,button4;
         startActivity(intent);
     }
     public void otvoriTreningRamena(){
-        Intent intent =new Intent(this,RamenaIRuke.class);
+        Intent intent =new Intent(this, RamenaIStomak.class);
+        startActivity(intent);
+    }
+    public void otvoriTreningRuku(){
+        Intent intent =new Intent(this,Ruke.class);
         startActivity(intent);
     }
 }
