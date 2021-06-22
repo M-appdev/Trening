@@ -95,6 +95,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:text="@string/prsa_i_triceps"
+        app:backgroundTint="#FD3D00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/trening1View"
         app:layout_constraintTop_toTopOf="parent" />
@@ -109,6 +110,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:text="@string/noge_i_trbu_njaci"
+        app:backgroundTint="#FD3D00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/trening2View"
         app:layout_constraintTop_toBottomOf="@+id/trening1Button" />
@@ -123,6 +125,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:text="@string/le_a_i_biceps"
+        app:backgroundTint="#FD3D00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/trening3View6"
         app:layout_constraintTop_toBottomOf="@+id/trening2Button" />
@@ -137,6 +140,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:text="Ruke"
+        app:backgroundTint="#FD3D00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/trening4View"
         app:layout_constraintTop_toBottomOf="@+id/trening4Button" />
@@ -151,6 +155,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:text="Ramena i trbušnjaci"
+        app:backgroundTint="#FD3D00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/trening4View7"
         app:layout_constraintTop_toBottomOf="@+id/trening3Button" />

@@ -8,6 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="20dp"
         tools:context=".RamenaIStomak">
 
         <TextView
@@ -15,7 +16,7 @@
             android:layout_width="350dp"
             android:layout_height="35dp"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="24dp"
             android:gravity="center"
             android:text="3 serije po minut"
             android:textSize="17sp"
@@ -70,6 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:gravity="center"
             android:text="Vjezba 2. Podizanje bučica naprijed"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -295,6 +297,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:gravity="center"
             android:text="Prvo se zagrijavamo na nekoj od kardio sprava  minimum 5 minuta ili više, tempo treba da bude umjeren.\nCilj je da se podigne tjelesna temperatura a da se mišići ne umore.\nZatim zagrijavamo rotatore ramena, sama ramena, zglobove lakta i šake. "
             android:textSize="16sp"
             android:textStyle="bold"

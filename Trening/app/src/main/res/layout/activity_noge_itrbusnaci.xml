@@ -8,6 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="20dp"
         tools:context=".NogeITrbusnaci">
 
         <TextView
@@ -38,10 +39,10 @@
 
         <TextView
             android:id="@+id/textView16"
-            android:layout_width="392dp"
-            android:layout_height="54dp"
+            android:layout_width="327dp"
+            android:layout_height="66dp"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="24dp"
             android:gravity="center"
             android:text="Istegnuti mišiće nogu, prednju i zadnju ložu kao i gluteus. Po 20 sekundi svaki mišić.  "
             android:textSize="16sp"
@@ -277,10 +278,11 @@
 
         <TextView
             android:id="@+id/textView23"
-            android:layout_width="356dp"
-            android:layout_height="144dp"
+            android:layout_width="327dp"
+            android:layout_height="142dp"
             android:layout_marginTop="16dp"
-            android:text="Prvo se zagrijavamo na nekoj od kardio sprava  minimum 5 minuta ili više, tempo treba da bude umjeren.\nCilj je da se podigne tjelesna temperatura a da se mišići ne umore.\n Zatim zagrijavamo koljena, kukove i zglobove stopala."
+            android:gravity="center"
+            android:text="Prvo se zagrijavamo na nekoj od kardio sprava  minimum 5 minuta ili više, tempo treba da bude umjeren.\nCilj je da se podigne tjelesna temperatura a da se mišići ne umore.\nZatim zagrijavamo koljena, kukove i zglobove stopala."
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
