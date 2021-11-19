@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trening</string>
+    <string name="trening_1">Trening 1:</string>
+    <string name="trening_2">Trening 2:</string>
+    <string name="trening_3">Trening 3:</string>
+    <string name="trening_4">Trening 4:</string>
+    <string name="prsa_i_triceps">Prsa i triceps</string>
+    <string name="noge_i_trbu_njaci">Noge i trbušnjaci</string>
+    <string name="le_a_i_biceps">Leđa i biceps</string>
+    <string name="ramena_i_ruke">Ramena i ruke</string>
+</resources>
